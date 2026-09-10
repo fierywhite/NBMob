@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>NBMob — 농구를 더 가깝게, 더 빠르게</title>
+  <meta name="description" content="농구 덕후를 위한 NBA 뉴스·영상·이미지 큐레이션." />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='46' fill='%23ff6a1a'/></svg>" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header>
+  <div class="wrap nav">
+    <div class="brand">
+      <span class="logo" aria-hidden="true"></span>
+      <b>NBMob</b>
+      <small>BASKETBALL CURIOSITIES</small>
+    </div>
+    <nav class="nav-links" aria-label="주요 섹션">
+      <a href="#news" class="active">뉴스</a>
+      <a href="#mix">영상·이미지</a>
+      <a href="#hub">팀·선수 허브</a>
+      <a href="#submit">제보</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <section class="hero" id="top">
+    <h1>농구를 더 가깝게, 더 빠르게.</h1>
+    <p>축구만큼 정보가 빠르게 도는 농구를 만들고 싶어서 시작한 곳. 뉴스를 요약하고, 영상과 이미지로 분위기를 더합니다.</p>
+    <div class="trending" id="trending"></div>
+  </section>
+
+  <section class="block" id="news">
+    <div class="section-head">
+      <h2>뉴스 · 속보 · 인사이트</h2>
+      <a class="more" href="#news">더 보기</a>
+    </div>
+    <div class="grid" id="newsList"></div>
+  </section>
+
+  <section class="block" id="mix">
+    <div class="section-head">
+      <h2>영상 · 이미지 큐레이션</h2>
+      <a class="more" href="#mix">더 보기</a>
+    </div>
+    <div class="grid" id="mixList"></div>
+  </section>
+
+  <section class="block" id="hub">
+    <div class="section-head">
+      <h2>팀 · 선수 허브</h2>
+      <a class="more" href="#hub">더 보기</a>
+    </div>
+    <p style="color:var(--muted);margin:0 0 14px;">지금은 뉴스/큐레이션 중심이지만, 곧 팀별·선수별 허브로 확장할 공간입니다.</p>
+    <div class="cta" id="submit">
+      <h3>NBMob를 더 채우고 싶다면</h3>
+      <p>팀 정보, 선수 이야기, 드래프트·계약 흐름처럼 농구를 더 '읽을 거리'로 만드는 콘텐츠를 늘려갑니다.</p>
+      <a class="btn" href="mailto:hello@example.com">제보/제안하기</a>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <div>
+      <div class="brand" style="margin-bottom:8px">
+        <span class="logo" aria-hidden="true"></span>
+        <b>NBMob</b>
+      </div>
+      <div>© NBMob</div>
+    </div>
+    <div style="text-align:right">
+      <div>문의: <a href="mailto:hello@example.com">hello@example.com</a></div>
+      <div id="genTime" style="margin-top:4px"></div>
+    </div>
+  </div>
+  <div class="wrap" style="margin-top:14px">
+    <div class="disclaimer">
+      <b>저작권·상표 안내 (면책)</b><br>
+      이 사이트는 NBA(National Basketball Association), 구단, 리그, 선수, 사진/영상 제공자 등과 제휴되지 않았습니다.
+      NBA 로고, 팀 로고, 공식 경기 영상·사진, 선수 이미지 등은 각 권리자의 저작권·상표·소유권 보호를 받을 수 있으며,
+      이 사이트는 이를 직접 호스팅하거나 무단으로 복제·전시하지 않습니다.
+      뉴스는 요약·발췌 및 원문 링크 방식으로 제공하며, 영상은 제공자가 임베드를 허용한 경우에 한해 임베드/링크합니다.
+      이미지·그래픽은 라이선스 확인이 쉬운 소스를 사용하거나 직접 제작한 것을 사용합니다.
+    </div>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
